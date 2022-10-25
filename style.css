@@ -8,3 +8,169 @@ body {
 }
 
 /* ---------------------------------------------------- */
+
+/* PC */
+ @media (min-width: 960px) {
+
+body {
+	margin: 5%;
+}
+.hlavni {
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	/* border: 2px solid red;  */
+}
+.seznam {
+	display: flex;
+	width: 100%;
+	/* border: 2px solid blue;	 */
+}
+
+.bunka {
+	border: 1px solid lightgrey;
+	border-radius: 2%;
+	width: 100%;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 1px 2px rgb(205, 229, 237);
+}
+
+.foto {
+	border-radius: 50%;
+	width: 50%;
+	margin: 10% 25% 5% 25%;
+	/* border: 2px solid yellow; */
+
+}
+
+.podnadpis {
+	/* border: 2px solid magenta; */
+	margin: 0;
+	font-size: 110%;
+	text-align: center;
+}
+ 
+
+p {
+	/* border: 2px solid cyan; */
+	margin: 10px;
+	font-size: 90%;
+	text-align: center;
+}
+
+ }
+
+ /* TABLET */
+
+ @media (min-width: 540px) and (max-width: 960px) {
+
+	body {
+		margin: 5%;
+	}
+	.hlavni {
+		text-align: center;
+		padding: 10px;
+		margin: 0;
+		/* border: 2px solid red; */
+	}
+	.seznam {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		/* border: 2px solid blue; */
+	}
+	
+	.bunka {
+		border: 1px solid lightgrey;
+		border-radius: 2%;
+		width: 100%;
+		margin: 10px;
+		flex-grow: 1;
+		flex-basis: 45%;
+		box-shadow: 0px 1px 2px rgb(205, 229, 237);
+	}
+	
+	.foto {
+		border-radius: 50%;
+		width: 25%;
+		margin: 3%;
+		/* border: 2px solid yellow; */
+		float: left;
+	
+	}
+	
+	.podnadpis {
+		/* border: 2px solid magenta; */
+		margin: 20px 10px 5px 30px;
+		font-size: 110%;
+		text-align: left;
+	}
+	 
+	p {
+		/* border: 2px solid cyan; */
+		margin: 10px;
+		font-size: 90%;
+		text-align: left;
+		overflow: hidden;
+	}
+
+
+ }
+ 
+
+ /* MOBIL */
+
+ @media (max-width: 540px) {
+	body {
+		margin: 22%;
+	}
+	.hlavni {
+		text-align: center;
+		padding: 10px;
+		margin: 0;
+		/* border: 2px solid red;  */
+	}
+	.seznam {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		/* border: 2px solid blue; */
+	}
+	
+	.bunka {
+		border: 1px solid lightgrey;
+		border-radius: 2%;
+		width: 100%;
+		margin-top: 10px;
+		display: flex;
+		flex-direction: column;
+		box-shadow: 0px 1px 2px rgb(205, 229, 237);
+	}
+	
+	.foto {
+		border-radius: 50%;
+		width: 50%;
+		margin: 10% 25% 2% 25%;
+		/* border: 2px solid yellow; 
+	 */
+	}
+	
+	.podnadpis {
+		/* border: 2px solid magenta; */
+		text-align: center;
+		font-size: 110%;
+		margin: 5px;
+	}
+	 
+	
+	p {
+		/* border: 2px solid cyan; */
+		margin: 0;
+		padding: 10px 10px;
+		font-size: 90%;
+		text-align: center;
+	}
+	
+ }
